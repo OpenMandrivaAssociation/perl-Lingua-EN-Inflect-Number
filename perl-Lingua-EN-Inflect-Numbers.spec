@@ -16,7 +16,6 @@ Buildrequires:	perl-devel
 %endif
 Buildrequires:	perl(Lingua::EN::Inflect)
 Buildarch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This module extends the functionality of Lingua::EN::Inflect with three new
