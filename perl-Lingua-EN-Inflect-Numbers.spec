@@ -22,7 +22,8 @@ This module extends the functionality of Lingua::EN::Inflect with three new
 functions available for export:
 
 number:
-This takes a word, and determines its number. It returns s for singular, p for plural, and ambig for words that can be either singular or plural.
+This takes a word, and determines its number. It returns s for singular, p for
+plural, and ambig for words that can be either singular or plural.
 
 to_S / to_PL:
 These take a word and convert it forcefully either to singular or to plural.
