@@ -9,6 +9,7 @@ Release:	%{release}
 Summary:	Force number of words to singular or plural
 License:	GPL or Artistic
 Group:		Development/Perl
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:            http://search.cpan.org/dist/%{module}
 Source:         http://www.cpan.org/modules/by-module/Lingua/%{module}-%{version}.tar.bz2
 %if %{mdkversion} < 1010
